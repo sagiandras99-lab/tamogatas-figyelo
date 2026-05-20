@@ -9,32 +9,7 @@ export default function Header() {
             </h1>
           </div>
 
-          <ul className="hidden md:flex space-x-10">
-            <li>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium text-sm"
-              >
-                Támogatások
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium text-sm"
-              >
-                Források
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium text-sm"
-              >
-                Rólunk
-              </a>
-            </li>
-          </ul>
+
 
           <button className="md:hidden text-gray-700 hover:text-blue-600">
             <svg

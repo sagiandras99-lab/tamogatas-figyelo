@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "mode": "mhtml",
+  "inputFile": "R:\\Projectek\\Scriptek\\palyazatok.mhtml",
+  "includeTechnical": false,
+  "totalParsed": 80,
+  "filteredBrokenEncoding": 0,
+  "filteredInactive": 17,
+  "filteredTechnical": 13,
+  "totalAfterFilters": 50,
+  "output": "src\\data\\grants.js",
+  "syncedAt": "2026-05-20T20:05:04.249Z"
+}
