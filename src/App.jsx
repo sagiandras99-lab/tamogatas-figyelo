@@ -1,5 +1,6 @@
 import { useState } from 'react'
 /*import './App.css' */
+import { Analytics } from '@vercel/analytics/react'
 import Header from './components/Header'
 import SearchBar from './components/SearchBar'
 import FilterBar from './components/FilterBar'
@@ -48,10 +49,13 @@ export default function App() {
   // Ha ki van választva egy támogatás, mutasd a részletező nézetet
   if (selectedGrant) {
     return (
-      <GrantDetails
-        grant={selectedGrant}
-        onBack={() => setSelectedGrant(null)}
-      />
+      <>
+        <GrantDetails
+          grant={selectedGrant}
+          onBack={() => setSelectedGrant(null)}
+        />
+        <Analytics />
+      </>
     )
   }
 
@@ -126,6 +130,7 @@ export default function App() {
           </p>
         </div>
       </footer>
+      <Analytics />
     </div>
   )
 }
